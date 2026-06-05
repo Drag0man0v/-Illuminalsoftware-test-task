@@ -38,7 +38,7 @@ Built natively with Kotlin and Jetpack Compose within a strict 3-hour time limit
 5. **Run the app on an emulator or a physical device (Minimum requirement: Android 8.0 / API 26).**
 
 
-### What is Fully Implemented
+## What is Fully Implemented
 - **Clean MVVM Architecture:** Total separation of concerns. The UI layer purely observes state, while the repository abstracts the network source.
 - **Robust Network Layer:** Setup Retrofit with a custom safe-execution wrapper (`Result<T>`) to guarantee the app never crashes on network errors.
 - **Main Screen (Coin List):** Displays the top 20 coins fetching directly from CoinGecko API, showing icons, names, symbols, prices, and color-coded 24h percentage changes.
@@ -47,7 +47,7 @@ Built natively with Kotlin and Jetpack Compose within a strict 3-hour time limit
 - **Error & Empty State Handling:** Added user-friendly Error States with a "Retry" button and Empty States for search queries with no results.
 - **Navigation Framework:** Set up standard Jetpack Navigation Compose carrying clean type-safe string arguments.
 
-### What is Left for Future Implementation((( (Time Limitations)
+## What is Left for Future Implementation((( (Time Limitations)
 - **Full Details Screen:**
   - *Status:* A simplified navigation placeholder was created. When a user clicks a coin, it smoothly navigates to an empty details screen showing the selected coin's name and a functional back button.
   - *Next Steps:* Implement the detailed UI layout (Market Cap cards, High/Low metrics) using the existing `CoinDto` model parameters.
