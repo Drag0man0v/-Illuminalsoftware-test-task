@@ -23,7 +23,7 @@ Built natively with Kotlin and Jetpack Compose within a strict 3-hour time limit
    
 2. **Open the project in Android Studio Hedgehog or newer.**
 
-3. **update the *CoinGecko API Key* in the `RetrofitInstance.kt` file:
+3. **update the *CoinGecko API Key* in the `RetrofitInstance.kt` file:**
 ```kotlin
 // Location: data/api/RetrofitInstance.kt
 .addInterceptor { chain ->
